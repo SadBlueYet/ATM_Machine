@@ -182,7 +182,7 @@ bool fileOutputLogs(int a, int b)
 int main()
 {
     setlocale(LC_ALL, "ru");
-    int userBalance = 1000, userPin, userChoise, payTelephoneNumber;
+    int userPin, userChoise, payTelephoneNumber;
     const int arrLength = 6;
     int userID[arrLength];
     
