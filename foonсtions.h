@@ -17,31 +17,31 @@ void logs(int numberOfFunction, int userOperation)
 		return;
 	if (numberOfFunction == 1)
 	{
-		foutLogs << userID << " Посмотрел баланс: " << userOperation << " " << asctime(timeinfo) << "\n";
+		foutLogs << userID << " looked at the balance: " << userOperation << " " << asctime(timeinfo) << "\n";
 		std::cin.get();
 		foutLogs.close();
 	}
 	if (numberOfFunction == 2)
 	{
-		foutLogs << userID << " Пополнил счет на: " << userOperation << " " << asctime(timeinfo) << "\n";
+		foutLogs << userID << " topped up the account: " << userOperation << " " << asctime(timeinfo) << "\n";
 		std::cin.get();
 		foutLogs.close();
 	}
 	if (numberOfFunction == 3)
 	{
-		foutLogs << userID << " Снял деньги: " << userOperation << " " << asctime(timeinfo) << "\n";
+		foutLogs << userID << " withdrew money: " << userOperation << " " << asctime(timeinfo) << "\n";
 		std::cin.get();
 		foutLogs.close();
 	}
 	if (numberOfFunction == 4)
 	{
-		foutLogs << userID << " Оплатил мобильную связь: " << userOperation << " " << asctime(timeinfo) << "\n";
+		foutLogs << userID << " paid for mobile communication: " << userOperation <<paid for mobile communication " " << asctime(timeinfo) << "\n";
 		std::cin.get();
 		foutLogs.close();
 	}
 	if (numberOfFunction == 5)
 	{
-		foutLogs << userID << " заблокировал карту. " << " " << asctime(timeinfo) << "\n";
+		foutLogs << userID << " blocked the card. " << " " << asctime(timeinfo) << "\n";
 		std::cin.get();
 		foutLogs.close();
 	}
